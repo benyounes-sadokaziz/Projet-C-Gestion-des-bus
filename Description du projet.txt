@@ -1,0 +1,21 @@
+Ce programme en langage C constitue un système de réservation basique pour des bus avec des voyageurs associés. Il offre la possibilité aux utilisateurs de créer de nouveaux comptes voyageurs, d'ajouter de nouveaux bus et de procéder à des réservations. Le programme propose également des fonctionnalités telles que l'affichage des détails des bus, la modification des informations de réservation, la présentation de l'ensemble des réservations, et enfin, la sortie du système en utilisant les listes chainées et les fichiers pour sauvgarder les données.
+
+Voici une analyse plus détaillée du programme :
+
+Structures de données :
+
+Voyageur : Contient les informations relatives à un voyageur (nom, prénom, âge).
+Bus : Stocke les informations concernant un bus (numéro, destination, capacité, sièges réservés).
+Reservation : Représente une réservation avec un identifiant, un bus associé, et un passager.
+
+
+Fonctions :
+
+afficherReservation : Présente en détail les informations d'une réservation.
+creerVoyageur, creerBus, creerReservation : Génèrent des instances respectives de passagers, de bus, et de réservations.
+ajouterVoyageur, ajouterBus, ajouterReservation : Ajoutent de nouveaux passagers, bus et réservations à leurs listes respectives.
+afficherDetailsBus : Affiche en détail les informations de tous les bus.
+afficherEtModifierReservation : Affiche et permet la modification des détails d'une réservation.
+afficherToutesReservations : Affiche les détails de toutes les réservations.
+libererMemoire : Libère la mémoire allouée pour les passagers, les bus et les réservations.
+sauvegarderVoyageurs, chargerVoyageurs : Gèrent la sauvegarde
